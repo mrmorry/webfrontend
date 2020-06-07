@@ -1,9 +1,9 @@
 <html lang="es">
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="stilo.css">
     <body>
+        
         <form  action="mailto:correoprueba@dominio.com.do" method="POST">
         <head>
             <title>
@@ -12,31 +12,35 @@
             <h1 >
                 Envianos tus sugerencias
             </h1>
-            <fieldset>
-            <legend> <b> Detalles contacto </b> </legend>
-                <p>
-                    <label > <b>Nombre:</b></label> <br />
-                    <input name="nombre" type="text" placeholder="Nombre"/><br />
-                </p>
-                <p>
-                    <label > <b>Genero:</b></label> <br />
-                    <input name="femenino" id="Femenino" type="radio"/>
-                    <label for="Femenino"> Femenino </label>
-                    <input name="masculino" id="Masculino" type="radio" />
-                    <label for="Masculino" type="radio"> Masculino </label>
-                </p> 
-                    <label > <b>Asunto:</b></label> <br />
-                    <input name="asunto" type="text" placeholder="Asunto"/> <br />
-                <p>    
-                    <lablel> <b> Correo</b></lablel> <br />
-                    <input name="correo" type="mail" placeholder="Correo Electrónico"/> <br />
-                </p> 
-                <p>
-                    <label> <b> Comentario </b></label> <br />
-                    <textarea name="comentarios" cols="40" rows="10"> </textarea> <br />
-                </p>
-                <input type="submit" name="Enviar" value="Enviar"/>
-            </fieldset>    
+            <div style="padding-left: 5in;" style="padding-top: 5in;">
+                <div>
+                    <fieldset style="width: 5in;">
+                    <legend> <b> Detalles contacto </b> </legend>
+                        <p class="texto-rojo">
+                            <label > <b>Nombre:</b></label> <br />
+                            <input name="nombre" type="text" placeholder="Nombre"/><br />
+                        </p>
+                        <p>
+                            <label > <b>Genero:</b></label> <br />
+                            <input name="femenino" id="Femenino" type="radio"/>
+                            <label for="Femenino"> Femenino </label>
+                            <input name="masculino" id="Masculino" type="radio" />
+                            <label for="Masculino" type="radio"> Masculino </label>
+                        </p> 
+                            <label > <b>Asunto:</b></label> <br />
+                            <input name="asunto" type="text" placeholder="Asunto"/> <br />
+                        <p>    
+                            <lablel> <b> Correo</b></lablel> <br />
+                            <input name="correo" type="mail" placeholder="Correo Electrónico"/> <br />
+                        </p> 
+                        <p>
+                            <label> <b> Comentario </b></label> <br />
+                            <textarea name="comentarios" cols="40" rows="10"> </textarea> <br />
+                        </p>
+                        <input type="submit" name="Enviar" value="Enviar"/>
+                    </fieldset>
+                </div>    
+            </div>  
         </head>
         </form>
     </body>
