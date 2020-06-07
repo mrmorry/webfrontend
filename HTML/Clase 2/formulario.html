@@ -11,9 +11,16 @@
             <h1 >
                 Envianos tus sugerencias
             </h1>
-            <legend> Detalles contacto</legend>
+            <fieldset>
+            <legend> <b> Detalles contacto </b> </legend>
                 <label > <b>Nombre:</b></label> <br />
                 <input type="text" placeholder="Nombre"/> <br />
+                <label > <b>Genero:</b></label> <br />
+                <input id="Femenino" type="radio"/>
+                <label for="Femenino"> Femenino </label>
+                <input id="Masculino" type="radio" />
+                <label for="Masculino" type="radio"> Masculino </label>
+                <br />
                 <label > <b>Asunto:</b></label> <br />
                 <input type="text" placeholder="Asunto"/> <br />
                 <lablel> <b> Correo</b></lablel> <br />
@@ -21,6 +28,7 @@
                 <label> <b> Comentario </b></label> <br />
                 <textarea name="comentarios" cols="40" rows="10"> Dejanos tu comentario </textarea> <br />
                 <input type="submit" name="Enviar" value="Enviar"/>
+            </fieldset>    
         </head>
     </body>
 
