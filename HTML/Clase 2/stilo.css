@@ -1,4 +1,29 @@
 /* Selector de estilo tipo .class   */
+*{
+    background-color: rgb(240, 240, 240);
+}
 .texto-rojo{
     color: crimson;
+}
+
+.divisor{
+    align-self: center;
+    padding-left: 5in;
+    padding-top: 0in;
+    }
+
+#titulo{
+    text-align: center;
+    padding-top: 1in;
+}
+textarea{
+    background-color: white;
+}
+
+input{
+    background-color: white;
+}
+
+fieldset{
+    width: 5in;
 }
