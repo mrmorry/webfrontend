@@ -6,7 +6,7 @@ body{
 
 main {
     background-image: url(Imagenes/contact-us.jpg);
-    height: 100vh;
+    height: 110vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -31,7 +31,7 @@ main {
 }
 
 #titulo{
-    padding-top: 15vh;
+    padding-top: 5vh;
     font-size: 300%;
     text-align: center;
     color: tomato;
@@ -55,13 +55,14 @@ fieldset{
 
 input{
     width: 37.5vh;
-    height: 3.5vh;    
+    height: 3.5vh;
+    border-radius: 1vh;  
 }
 
 textarea{
     resize: none;
-
-    
+    border-radius: 1.5vh;
+   
 }
 
 h3{
@@ -89,4 +90,8 @@ img{
     height: 5vh;
     float: right;
     border-radius: 1vh;
+}
+
+::placeholder{
+    padding-left: 1.5vh;
 }
