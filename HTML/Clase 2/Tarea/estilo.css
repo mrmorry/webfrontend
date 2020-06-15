@@ -7,10 +7,12 @@ body{
 main {
     background-image: url(Imagenes/contact-us.jpg);
     height: 110vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;    
 }
 
 #izquierda{
@@ -90,7 +92,12 @@ img{
     height: 5vh;
     float: right;
     border-radius: 1vh;
-    
+    font-weight: bold;
+}
+
+#boton:hover{
+    color: white;
+    background-color: tomato;
 }
 
 ::placeholder{
