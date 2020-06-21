@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #F7F7F9;
+}
+ body {
+     background-color: #F7F7F9;
+     font-family: Verdana;
+ }
+
+ h2 {
+     width: 100%;
+     padding: 15px;
+     margin-bottom: 15px;
+     color: #2B2D42;
+ }
+
+ .contenedor {
+     width: 100%;
+     height: 100vh;
+     padding: 0 15px;
+ }
+
+ .contenedor > * {
+     background-color: #47a8bd;
+     border-radius: 5px;
+     margin: 5px;
+     padding: 10px;
+ }
+
+.cabecera {
+    background-color: #F7E733;
+    color: #2B2D42;
+    min-height: 60px;
+    float: left;
+}
+
+.cabecera, .pie-pagina {
+    width: inherit;
+}
+
+.seccion, .barra-tarea {
+    width: 32%;
+    min-height: 400px;
+    float: left;
+}
+
+.barra-tarea {
+    float: right;
+}
+.pie-pagina {
+    min-height: 60px;
+    float: left;
+}
+
+
+/* Extra Small devices  (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .seccion, .barra-tarea {
+        width: 100%;
+        min-height: 200px;
+        float: left;
+    }
+
+    .barra-tarea {
+        float: left;
+        min-height: 100px;
+    }
+
+    .pie-pagina {
+        display: none;
+    }
+
+}
