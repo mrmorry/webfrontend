@@ -14,26 +14,47 @@
      padding: 15px;
      margin-bottom: 15px;
      color: #2B2D42;
+     height: 7vh;
  }
 
  .contenedor {
      width: 100%;
-     height: 100vh;
-     padding: 0 15px;
+     display: grid;
+     grid-template-columns: 200px;
+     grid-template-rows: 100px;
+     grid-template-areas: "header header header"
+                          "menu contenido toolbar"
+                          "menu contenido toolbar"
+                          "menu footer footer";
+    grid-gap: 10px;
+    height: 92vh;
+    padding:  0 15px;
+
  }
 
  .contenedor > * {
      background-color: #47a8bd;
      border-radius: 5px;
-     margin: 5px;
      padding: 10px;
  }
 
 .cabecera {
     background-color: #F7E733;
     color: #2B2D42;
-    min-height: 60px;
-    float: left;
+    grid-area: header;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.contenido {
+    grid-area: contenido;
+}
+
+.toolbar {
+    float: right;
+    grid-area: toolbar; 
 }
 
 .cabecera, .pie-pagina {
@@ -41,17 +62,13 @@
 }
 
 .seccion, .barra-tarea {
-    width: 32%;
-    min-height: 400px;
     float: left;
 }
 
-.barra-tarea {
-    float: right;
-}
 .pie-pagina {
     min-height: 60px;
     float: left;
+    
 }
 
 
