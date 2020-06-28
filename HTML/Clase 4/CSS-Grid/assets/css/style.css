@@ -12,7 +12,7 @@
  h2 {
      width: 100%;
      padding: 15px;
-     margin-bottom: 15px;
+     margin-bottom: 1vh;
      color: #2B2D42;
      height: 7vh;
  }
@@ -21,8 +21,9 @@
      width: 100%;
      display: grid;
      grid-template-columns: 200px;
-     grid-template-rows: 100px;
+     grid-template-rows: 30px;
      grid-template-areas: "header header header"
+                          "menu contenido toolbar"
                           "menu contenido toolbar"
                           "menu contenido toolbar"
                           "menu footer footer";
@@ -53,22 +54,18 @@
 }
 
 .toolbar {
-    float: right;
     grid-area: toolbar; 
 }
 
 .cabecera, .pie-pagina {
-    width: inherit;
 }
 
 .seccion, .barra-tarea {
-    float: left;
+
 }
 
 .pie-pagina {
-    min-height: 60px;
-    float: left;
-    
+
 }
 
 
@@ -90,3 +87,15 @@
     }
 
 }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+

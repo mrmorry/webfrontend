@@ -1,0 +1,312 @@
+	.mediaViewInfo {
+		--web-view-name: Web 1920 – 1;
+		--web-view-id: Web_1920__1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Web_1920__1;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Web_1920__1 {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Web 1920 – 1;
+		--web-view-id: Web_1920__1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Background {
+		fill: rgba(29,53,87,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Background {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 1080px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangulo_Centro {
+		fill: rgba(69,123,157,1);
+		stroke: rgba(63,136,197,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangulo_Centro {
+		position: absolute;
+		overflow: visible;
+		width: 1343px;
+		height: 734px;
+		left: 289px;
+		top: 241px;
+	}
+	#Triangulo_Arriba {
+		fill: rgba(29,53,87,1);
+		stroke: rgba(29,53,87,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Triangulo_Arriba {
+		overflow: hidden;
+		position: absolute;
+		width: 118px;
+		height: 68px;
+		transform: matrix(1,0,0,1,901,224) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Triangulo_Abajo {
+		fill: rgba(29,53,87,1);
+		stroke: rgba(29,53,87,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Triangulo_Abajo {
+		overflow: hidden;
+		position: absolute;
+		width: 118px;
+		height: 68px;
+		transform: matrix(1,0,0,1,901,924) rotate(0deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Barra {
+		fill: rgba(168,218,220,1);
+		stroke: rgba(168,218,220,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Barra {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 105px;
+		left: 0px;
+		top: 0px;
+	}
+	#Triangulo_Barra {
+		fill: rgba(168,218,220,1);
+		stroke: rgba(168,218,220,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Triangulo_Barra {
+		overflow: hidden;
+		position: absolute;
+		width: 118px;
+		height: 68px;
+		transform: matrix(1,0,0,1,901,105) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Amaury_Ml_Almonte_Pea {
+		filter: drop-shadow(0px 3px 6px rgba(29, 53, 87, 1));
+		left: 68px;
+		top: 31px;
+		position: absolute;
+		overflow: visible;
+		width: 484px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 37px;
+		color: rgba(245,245,245,1);
+	}
+	#Tarea_1_-_Rectangulo {
+		fill: rgba(69,123,157,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Tarea_1_-_Rectangulo {
+		filter: drop-shadow(0px 3px 6px rgba(29, 53, 87, 1));
+		position: absolute;
+		overflow: visible;
+		width: 173px;
+		height: 73px;
+		left: 1081px;
+		top: 31px;
+	}
+	#Tarea_1 {
+		left: 1109px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 100px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 27px;
+		color: rgba(245,245,245,1);
+	}
+	#Tarea_2_-_Rectangulo {
+		fill: rgba(69,123,157,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Tarea_2_-_Rectangulo {
+		filter: drop-shadow(0px 3px 6px rgba(29, 53, 87, 1));
+		position: absolute;
+		overflow: visible;
+		width: 173px;
+		height: 73px;
+		left: 1261px;
+		top: 31px;
+	}
+	#Tarea_3_-_Rectangulo {
+		fill: rgba(69,123,157,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Tarea_3_-_Rectangulo {
+		filter: drop-shadow(0px 3px 6px rgba(29, 53, 87, 1));
+		position: absolute;
+		overflow: visible;
+		width: 173px;
+		height: 73px;
+		left: 1437px;
+		top: 31px;
+	}
+	#Tarea_2 {
+		left: 1289px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 100px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 27px;
+		color: rgba(245,245,245,1);
+	}
+	#Tarea_3 {
+		left: 1465px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 100px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 27px;
+		color: rgba(245,245,245,1);
+	}
+	#Tara_4_-_Rectangulo {
+		fill: rgba(69,123,157,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Tara_4_-_Rectangulo {
+		filter: drop-shadow(0px 3px 6px rgba(29, 53, 87, 1));
+		position: absolute;
+		overflow: visible;
+		width: 173px;
+		height: 73px;
+		left: 1613px;
+		top: 31px;
+	}
+	#Tarea_4 {
+		left: 1641px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 100px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 27px;
+		color: rgba(245,245,245,1);
+	}
+	#Linea_Central {
+		fill: transparent;
+		stroke: rgba(245,245,245,1);
+		stroke-width: 5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Linea_Central {
+		overflow: visible;
+		position: absolute;
+		width: 5px;
+		height: 506px;
+		left: 960.5px;
+		top: 346.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ellipse_1 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 276px;
+		height: 279px;
+		left: 490px;
+		top: 401px;
+	}
