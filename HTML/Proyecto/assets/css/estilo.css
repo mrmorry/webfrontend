@@ -52,7 +52,6 @@
 }
 
 .tareas li{
-    /* Elementos li por separado */
     flex: 1 0 0;
     text-align: center;
 }

@@ -23,6 +23,8 @@ main {
     padding-left: 4.5vh;
     padding-top: 3.5vh;
     text-align: left;
+    display: block;
+    
 }
 
 #derecha{
@@ -30,6 +32,8 @@ main {
     line-height: 2 px;
     padding-right: 3.5vh;
     padding-bottom: 3.5vh;
+    display: block;
+    
 }
 
 #titulo{
@@ -53,6 +57,7 @@ fieldset{
     margin: auto;
     background-color: white;
     border-radius: 2.5vh;
+    display:grid;
 }
 
 input{
