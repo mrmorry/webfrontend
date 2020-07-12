@@ -5,7 +5,7 @@
     color: #F7F7F9;
 }
  body {
-     background-color: black;
+     background-color: #474747;
      font-family: 'Roboto', sans-serif;
  }
 
@@ -27,6 +27,18 @@
     grid-template-columns: 1fr 500px;
     grid-template-rows: 80px;
 }
+ .menu:after{   
+    content: "";
+    display: block;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 79px;
+    left: calc(50% - 35px);
+    border-left: 41px solid transparent;
+    border-right: 41px solid transparent;
+    border-top: 34px solid #2a3d54;
+ }
 .nombre{
     width: 100%;
     height: 100%;
@@ -93,9 +105,9 @@
     position: absolute;
     top: 0px;
     left: calc(50% - 35px);
-    border-left: 31px solid transparent;
-    border-right: 31px solid transparent;
-    border-top: 21px solid black;
+    border-left: 41px solid transparent;
+    border-right: 41px solid transparent;
+    border-top: 34px solid #474747;
 }
 .cuerpo:after {
     content: "";
@@ -103,18 +115,18 @@
     height: 0px;
     width: 0px;
     position: absolute;
-    top: 379px;
+    bottom: 0px;
     transform: rotate(180deg);
     left: calc(50% - 35px);
-    border-left: 31px solid transparent;
-    border-right: 31px solid transparent;
-    border-top: 21px solid black;
+    border-left: 41px solid transparent;
+    border-right: 41px solid transparent;
+    border-top: 34px solid #474747;
 }
 .cuerpo{
     width: 90%;
     max-width: auto;
     margin: 100px auto;
-    box-shadow: 0px 10px 40px -10px rgba(0,0,0,.3);
+    box-shadow: 0px 10px 40px -10px #474747;
     border-radius: 8px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -127,8 +139,8 @@
     max-height: 75%;
 }
 .izquierda > img {
-    width: 50%;
-    height: 50%;
+    width: 61%;
+    height: 60%;
     margin: 3rem auto;
     border-radius: 5cm;
 }
@@ -139,8 +151,19 @@
     max-height: 75%;
 }
 .datos{
-        width: 100%;
-        height: 100%;
         list-style: none;
-        margin: 1.5rem auto;
+        margin: 4.5rem auto;
+}
+.datos > li {
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.datos > li > a {
+    color: crimson;
+}
+
+.datos > p {
+    padding-top: 2rem;
+    text-align: justify;
 }
