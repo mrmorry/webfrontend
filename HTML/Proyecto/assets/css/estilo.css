@@ -138,12 +138,34 @@
     padding: 1.5rem;
     max-height: 75%;
 }
-.izquierda > img {
+.enlace{
+    color: #FFFFFF;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 20%;
+}
+.caja{
+    display: flex;
+    flex-flow: row;
+}
+img.foto{
     width: 61%;
     height: 60%;
-    margin: 3rem auto;
+    margin: 1rem auto;
     border-radius: 5cm;
+    display: flex;
+    flex-flow: row;
 }
+
+img.icono{
+    width: 10%;
+    height: 10%;
+    margin: 0.5rem;
+    border-radius: 5cm;
+    display: flex;
+    flex-flow: row;
+}
+
 .derecha{
     display: flex;
     flex-flow: nowrap;
