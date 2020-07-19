@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    margin: 0vh;
+}
+
+main {
+    background-image: url(/Javascript/Clase_1/recursos/Imagenes/contact-us.jpg);
+    height: 110vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;    
+}
+
+#izquierda{
+    font-size: 1.5vh;
+    width: 37.5vh;
+    line-height: 3.5vh;
+    float: left;
+    padding-left: 4.5vh;
+    padding-top: 3.5vh;
+    text-align: left;
+    /* display: flex; */
+    grid-area: izquierda;
+    
+}
+
+#derecha{
+    float: right;
+    line-height: 2 px;
+    padding-right: 3.5vh;
+    padding-bottom: 3.5vh;
+    /* display: flex; */
+    grid-area: derecha;
+    
+}
+
+#titulo{
+    padding-top: 5vh;
+    font-size: 300%;
+    text-align: center;
+    color: tomato;
+    font-weight: bolder;
+}
+
+#cuerpo{
+    padding-top: 5vh;
+    font-size: 140%;
+    text-align: center;
+    color: tomato;
+}
+
+fieldset{
+    width: 85vh;
+    /* max-height: 25%; */
+    border-color: brown;
+    margin: auto;
+    background-color: white;
+    border-radius: 2.5vh;
+    display:grid;
+    grid-template-areas: "cabecera cabecera"
+                         "izquierda derecha"
+}
+
+input{
+    width: 37.5vh;
+    height: 3.5vh;
+    border-radius: 1vh;  
+}
+
+textarea{
+    resize: none;
+    border-radius: 1.5vh;
+    height: 95px;
+    width: 95%;
+   
+}
+
+h3{
+    margin: auto;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    text-align: center;
+    grid-area: cabecera;
+}
+
+img{
+    width: 2.5vh;
+    height: 2.5vh;
+    float: left;
+    align-items: center;
+    padding-right: 2vh;
+}
+
+#redes{
+    padding-left: 3.5vh;
+    padding-top: 3.5vh;
+    float: left;
+    }
+
+#boton {
+    width: 15vh;
+    height: 5vh;
+    float: right;
+    border-radius: 1vh;
+    font-weight: bold;
+}
+
+#boton:hover{
+    color: white;
+    background-color: tomato;
+}
+
+::placeholder{
+    padding-left: 1.5vh;
+}
+
+form{
+    display: block;
+}
