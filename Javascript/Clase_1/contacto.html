@@ -19,19 +19,19 @@
                 <fieldset>
                     <h3 class="cabecera"> Contacto </h3><br />
                     <section id="izquierda">
-                        <img src="/Javascript/Clase_1/recursos/Imagenes/message.svg"> <div> </div><a href="mailto:correo@prueba.do">correo@prueba.do</a> <br />
-                        <img src="/Javascript/Clase_1/recursos/Imagenes/place.svg"> <div> Calle 23 esq. El mejor </div>
-                        <img src="/Javascript/Clase_1/recursos/Imagenes/viber.svg"> <div> (809) 220-1111 </div> 
-                        <div id="redes"><a href="https://www.facebook.com"><img src="/Javascript/Clase_1/recursos/Imagenes/facebook.svg"></a></div>
-                        <div id="redes"> <a href="https://www.twitter.com"><img src="/Javascript/Clase_1/recursos/Imagenes/twitter.svg"></a></div>
-                        <div id="redes"> <a href="https://www.instagram.com"><img src="/Javascript/Clase_1/recursos/Imagenes/instagram.svg"></a></div>
+                        <img src="recursos\Imagenes\message.svg"> <div> </div><a href="mailto:correo@prueba.do">correo@prueba.do</a> <br />
+                        <img src="recursos\Imagenes\place.svg"> <div> Calle 23 esq. El mejor </div>
+                        <img src="recursos\Imagenes\viber.svg"> <div> (809) 220-1111 </div> 
+                        <div id="redes"><a href="https://www.facebook.com"><img src="recursos\Imagenes\facebook.svg"></a></div>
+                        <div id="redes"> <a href="https://www.twitter.com"><img src="recursos\Imagenes\twitter.svg"></a></div>
+                        <div id="redes"> <a href="https://www.instagram.com"><img src="recursos\Imagenes\instagram.svg"></a></div>
                     </section>
                     <section id="derecha">
-                        <form>
-                            <input type="text" name="nombre" placeholder="Nombre"/> <br /> <br />
-                            <input type="text" name="correo" placeholder="Correo"/> <br /> <br />
-                            <input type="text" name="asunto" placeholder="Asunto"/> <br /> <br />
-                            <textarea name="comentario" cols="50" rows="20"> </textarea> <br /> <br />
+                        <form id="formulario">
+                            <input type="text" name="nombre" placeholder="Nombre" id="nombre"/> <br /> <br />
+                            <input type="text" name="correo" placeholder="Correo" id="correo"/> <br /> <br />
+                            <input type="text" name="asunto" placeholder="Asunto" id="asunto"/> <br /> <br />
+                            <textarea name="comentario" cols="50" rows="20" id="comentario"> </textarea> <br /> <br />
                             <button name="enviar" value="Enviar" id="boton"> Enviar </button>
                         </form>
                     </section>
@@ -40,7 +40,7 @@
 
 
     </main>
-
+<script src="recursos/js/contacto.js"></script>
 </body>
 
 </html>

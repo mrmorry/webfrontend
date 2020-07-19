@@ -5,7 +5,7 @@ body{
 }
 
 main {
-    background-image: url(/Javascript/Clase_1/recursos/Imagenes/contact-us.jpg);
+    background-image: url(/recursos/Imagenes/contact-us.jpg);
     height: 110vh;
     width: 100%;
     background-repeat: no-repeat;
