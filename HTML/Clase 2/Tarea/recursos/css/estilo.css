@@ -5,7 +5,7 @@ body{
 }
 
 main {
-    background-image: url('/Clase 2/Tarea/recursos/Imagenes/contact-us.jpg');
+    background-image: url("/HTML/Clase%2/");
     height: 110vh;
     width: 100%;
     background-repeat: no-repeat;
