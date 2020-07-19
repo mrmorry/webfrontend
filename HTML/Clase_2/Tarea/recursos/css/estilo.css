@@ -55,6 +55,7 @@ main {
 
 fieldset{
     width: 85vh;
+    /* max-height: 25%; */
     border-color: brown;
     margin: auto;
     background-color: white;
@@ -73,6 +74,8 @@ input{
 textarea{
     resize: none;
     border-radius: 1.5vh;
+    height: 95px;
+    width: 95%;
    
 }
 
