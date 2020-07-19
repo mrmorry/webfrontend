@@ -17,7 +17,13 @@ function imprimir (evento) {
     };
     
     let correo = document.getElementById("correo").value;
-    console.log ("Correo: " + correo);
+    if (correo.includes ("@") == false)  {
+        console.log ("No es un correo válido");
+    }
+    else {
+        console.log ("Correo: " + correo);
+    };
+    
 
     let asunto = document.getElementById("asunto").value;
     console.log ("Asunto: " + asunto);
