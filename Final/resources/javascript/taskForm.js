@@ -1,0 +1,48 @@
+import * as modulos from './module.js';
+
+$(document).ready((e) => {
+    let tarea = {
+        titulo: 'Titulo',
+        descripcion: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod',
+        estado: false,
+        fecha: new Date('2019-04-25')
+    };
+   
+    let tasks = modulos.getTasksEnStorage();
+    
+    $('#btn-guardar').click(function (e) {
+        let titulo = $("#titulo");
+        let descripcion = $("#descripcion");
+        
+        if (!titulo.val()) {
+            titulo.addClass('is-invalid')
+            return;
+        } else {
+            titulo.removeClass('is-invalid'); 
+            titulo.addClass('is-valid')
+        }
+
+        if (!descripcion.val()) {
+            descripcion.addClass('is-invalid')
+            return;
+        } else {
+            descripcion.removeClass('is-invalid'); 
+            descripcion.addClass('is-valid')
+        }
+
+       let task = {
+            id: tasks.length + 1,
+            titulo: titulo.val(),
+            descripcion: descripcion.val(),
+            estado: false,
+            fecha: new Date.now()
+        };
+
+        modulos.setTasksEnStorage(task);
+        titulo.val("");
+        descripcion.val("");
+        fecha.val("");
+        titulo.removeClass('is-valid');
+        descripcion.removeClass('is-valid');
+    });
+});
