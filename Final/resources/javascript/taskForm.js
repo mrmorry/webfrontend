@@ -44,6 +44,7 @@ $(document).ready((e) => {
             estado: false,
             fecha: fecha
         };
+        
 
         modulos.setTasksEnStorage(task);
         titulo.val("");

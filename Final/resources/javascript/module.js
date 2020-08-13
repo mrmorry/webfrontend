@@ -33,6 +33,7 @@ function generateTagTask(tasks) {
         `
 };
 
+
 function tasksLoad(tasks) {
     let htmlTareas = $(".task");
     htmlTareas.remove();
